@@ -1,0 +1,21 @@
+C:\Users\Christoffer\source\repos\Task Project\Task Project\bin\Debug\net6.0-windows\Task Project.exe
+C:\Users\Christoffer\source\repos\Task Project\Task Project\bin\Debug\net6.0-windows\Task Project.deps.json
+C:\Users\Christoffer\source\repos\Task Project\Task Project\bin\Debug\net6.0-windows\Task Project.runtimeconfig.json
+C:\Users\Christoffer\source\repos\Task Project\Task Project\bin\Debug\net6.0-windows\Task Project.dll
+C:\Users\Christoffer\source\repos\Task Project\Task Project\bin\Debug\net6.0-windows\Task Project.pdb
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.csproj.AssemblyReference.cache
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project_MarkupCompile.cache
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project_MarkupCompile.lref
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.g.resources
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.AssemblyInfoInputs.cache
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.AssemblyInfo.cs
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.csproj.CoreCompileInputs.cache
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.dll
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\refint\Task Project.dll
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.pdb
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\Task Project.genruntimeconfig.cache
+C:\Users\Christoffer\source\repos\Task Project\Task Project\obj\Debug\net6.0-windows\ref\Task Project.dll
