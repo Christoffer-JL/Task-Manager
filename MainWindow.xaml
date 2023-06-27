@@ -27,7 +27,7 @@
             <Grid x:Name="Menu_bar_top_Copy1" Background="#FFBBAEAE" Margin="0,98,0,0" MinHeight="28" VerticalAlignment="Top">
                 <Label x:Name="My_tasks" Content="My tasks" HorizontalAlignment="Left" Margin="44,0,0,0" VerticalAlignment="Top" MouseLeftButtonDown="MyTasksLabel_MouseLeftButtonDown" />
             </Grid>
-            <Grid x:Name="Menu_bar_top_Copy3" Background="#FFBBAEAE" MinHeight="50" VerticalAlignment="Stretch" Margin="0,217,0,189">
+            <Grid x:Name="Menu_bar_top_Copy3" Background="#FFBBAEAE" MinHeight="50" VerticalAlignment="Top" Margin="0,217,0,0" Height="58">
                 <Label x:Name="Placeholder_label" Content="Placeholder" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Center"/>
             </Grid>
         </Grid>
