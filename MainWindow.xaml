@@ -5,32 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_Project"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800"
+        MinHeight="480" MinWidth="800">
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" RenderTransformOrigin="0.512,0.5">
         <Grid.RowDefinitions>
             <!--  <RowDefinition Height="450" /> -->
             <!--<<< Exact Height... won't resize -->
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
             <!--<<< Will resize to the size of contents -->
             <!--<RowDefinition Height="*" />-->
             <!--<<< Will resize taking all remaining space -->
         </Grid.RowDefinitions>
-        <Grid x:Name="Menu_bar_big" Background="Black" Height="434" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170">
-            <Grid x:Name="Menu_bar_top" Background="#FF736D6D" Margin="-1,0,1,409"/>
-        </Grid>
-        <Grid x:Name="Menu_bar_top_Copy" Background="#FFC7C7C7" Margin="7,5,759,412" Height="15"/>
-        <Grid x:Name="Menu_bar_top_Copy1" Background="#FFBBAEAE" Margin="0,98,630,308">
-            <Label x:Name="My_tasks" Content="My tasks" HorizontalAlignment="Left" Margin="44,0,0,0" VerticalAlignment="Top" MouseLeftButtonDown="MyTasksLabel_MouseLeftButtonDown" />
-        </Grid>
-        <Grid x:Name="Menu_bar_top_Copy2" Background="#FFBBAEAE" Margin="0,160,630,246">
-            <Label x:Name="Settings_label" Content="Settings" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Center"/>
-        </Grid>
-        <Grid x:Name="Menu_bar_top_Copy3" Background="#FFBBAEAE" Margin="0,217,630,189">
-            <Label x:Name="Placeholder_label" Content="Placeholder" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Center"/>
+        <Grid x:Name="Menu_bar_big" Background="Black" Margin="0,0,630,0">
+            <Grid x:Name="Menu_bar_top_Copy2" Background="#FFBBAEAE" Margin="0,160,0,0" MinHeight="28" VerticalAlignment="Top">
+                <Label x:Name="Settings_label" Content="Settings" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid x:Name="Menu_bar_top" Background="#FF736D6D" Margin="-1,0,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="170">
+                <Grid x:Name="Menu_bar_top_Copy" Background="#FFC7C7C7" Margin="7,6,129,4" Height="15"/>
+            </Grid>
+            <Grid x:Name="Menu_bar_top_Copy1" Background="#FFBBAEAE" Margin="0,98,0,0" MinHeight="28" VerticalAlignment="Top">
+                <Label x:Name="My_tasks" Content="My tasks" HorizontalAlignment="Left" Margin="44,0,0,0" VerticalAlignment="Top" MouseLeftButtonDown="MyTasksLabel_MouseLeftButtonDown" />
+            </Grid>
+            <Grid x:Name="Menu_bar_top_Copy3" Background="#FFBBAEAE" MinHeight="50" VerticalAlignment="Stretch" Margin="0,217,0,189">
+                <Label x:Name="Placeholder_label" Content="Placeholder" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
         </Grid>
         <Grid x:Name="Menuframe_My_tasks" Margin="170,5,0,0">
-            <Button Content="Test" HorizontalAlignment="Left" Margin="263,150,0,0" VerticalAlignment="Top"/>
+            <Button Content="Test" Margin="0,0,342,259" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="25"/>
         </Grid>
-
     </Grid>
 </Window>
